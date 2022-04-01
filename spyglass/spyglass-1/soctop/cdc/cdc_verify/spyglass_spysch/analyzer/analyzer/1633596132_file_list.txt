@@ -1,0 +1,11 @@
+0 ../rtl/compute.v
+1 ../rtl/memory.v
+2 ../rtl/picorv32.v
+3 ../rtl/picosoc.v
+4 ../rtl/sequencer.v
+5 ../rtl/simpleuart.v
+6 ../rtl/soctop.v
+7 ../rtl/spimemio.v
+8 ../rtl/top.v
+9 ./spyglass-1/soctop/lint/lint_abstract/spyglass_spysch/spyglass_lc/aggregate/cells.nom_0.v
+10 ./spyglass-1/soctop/lint/lint_abstract/spyglass_spysch/spyglass/mem256x32_ss_0p90v_0p90v_m40c_0.v

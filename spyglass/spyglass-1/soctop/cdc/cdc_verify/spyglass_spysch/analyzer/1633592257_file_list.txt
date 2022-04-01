@@ -1,0 +1,13 @@
+0 ../rtl/compute.v
+1 ../rtl/memory.v
+2 ../rtl/picorv32.v
+3 ../rtl/picosoc.v
+4 ../rtl/sequencer.v
+5 ../rtl/simpleuart.v
+6 ../rtl/soctop.v
+7 ../rtl/spimemio.v
+8 ../rtl/top.v
+9 ../rtl/mem256x32.v
+10 ../rtl/mem512x32.v
+11 ../rtl/mem512x64.v
+12 ../rtl/mem16384x16.v

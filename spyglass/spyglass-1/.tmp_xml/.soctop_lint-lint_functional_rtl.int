@@ -1,0 +1,7 @@
+INPUT@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/lint/lint_functional_rtl/spyglass_reports@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/html_reports/data_files/@@soctop@@lint-lint_functional_rtl@@
+COPY@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/lint/lint_functional_rtl/spyglass_reports/moresimple.rpt@@data_files/soctop_lint-lint_functional_rtl_moresimple.rpt@@
+COPY@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/lint/lint_functional_rtl/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/soctop_lint-lint_functional_rtl_no_msg_reporting_rules.rpt@@
+REGEN@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/lint/lint_functional_rtl/spyglass_reports/auto_verify.rpt@@data_files/soctop_lint-lint_functional_rtl_auto_verify.rpt.html@@
+REGEN@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/lint/lint_functional_rtl/spyglass_reports/ADV-LINT.rpt@@data_files/soctop_lint-lint_functional_rtl_ADV-LINT.rpt.html@@
+PROCESS@@auto-verify@@SpyGlass
+COPY@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/lint/lint_functional_rtl/spyglass.log@@data_files/soctop_lint-lint_functional_rtl_spyglass.log@@

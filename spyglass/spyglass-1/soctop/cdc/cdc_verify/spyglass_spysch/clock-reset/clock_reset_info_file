@@ -1,0 +1,41 @@
+Enabled AND-Sync
+Enabled Sync-Enable
+Enabled Clock_Gate-Sync
+Enabled Mux-Select
+Enabled Recirculation
+BEGIN INFO :: CLOCK SOURCES
+PRIMARY:
+
+soctop.clk
+
+BLACK-BOX:
+
+
+UNDRIVEN:
+
+soctop.u_picosoc.memory.clock
+
+DERIVED:
+
+
+GATED:
+
+
+END::CLOCK-INFO
+BEGIN INFO :: RESET SOURCES
+PRIMARY:
+
+
+BLACK-BOX:
+
+
+UNDRIVEN:
+
+
+DERIVED:
+
+
+GATED:
+
+
+END::RESET-INFO

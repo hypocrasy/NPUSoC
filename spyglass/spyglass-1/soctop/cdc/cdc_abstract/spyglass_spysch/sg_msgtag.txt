@@ -1,0 +1,85 @@
+15 "ErrorAnalyzeBBox" 2
+"BBoxEng"
+["mem16384x16","BB_NO_MOD_DEF"]
+"BBoxEngAuxiInfo"
+["WORK","mem16384x16","1"]
+16 "WarnAnalyzeBBox" 2
+"BBoxEng"
+["mem256x32","BB_NO_FUNC_VIEW"]
+"BBoxEngAuxiInfo"
+["(null)","(null)","(null)"]
+17 "ErrorAnalyzeBBox" 2
+"BBoxEng"
+["mem512x32","BB_NO_MOD_DEF"]
+"BBoxEngAuxiInfo"
+["WORK","mem512x32","1"]
+18 "ErrorAnalyzeBBox" 2
+"BBoxEng"
+["mem512x64","BB_NO_MOD_DEF"]
+"BBoxEngAuxiInfo"
+["WORK","mem512x64","1"]
+-1 "Ac_abstract01" 3
+"TEMPLATE"
+["cdc/cdc_abstract"]
+"RULE_ORDER"
+[3]
+"RULEGROUP"
+["clock-reset/BLOCK_ABSTRACT"]
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ErrorAnalyzeBBox" 2
+"RULEGROUP"
+["Blackbox Resolution"]
+"BUILTIN"
+"1"
+-1 "Info_Case_Analysis" 5
+"TEMPLATE"
+["cdc/cdc_abstract"]
+"RULE_ORDER"
+[4]
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+"SPG_RULETAG_SCH_INFO_RULE"
+"Show Info Case Analysis Data"
+-1 "SYNTH_5143" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "Setup_clockreset01" 3
+"TEMPLATE"
+["cdc/cdc_abstract"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["clock-reset/INFORMATION"]
+-1 "WRN_1024" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "WRN_1464" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "WRN_69" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "WarnAnalyzeBBox" 2
+"RULEGROUP"
+["Blackbox Resolution"]
+"BUILTIN"
+"1"

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<goal_summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="file://Dashboard/goal_xml.xsd">
+<!-- This file schema is internal to Atrenta DashBoard and subject to change in future without notice --> 
+<goal name="cdc/cdc_abstract"/>
+<top name="soctop"/>
+<dir name="/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/consolidated_reports/soctop_cdc_cdc_abstract/"/>
+<log name="/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/cdc/cdc_abstract/spyglass.log" link="data_files/soctop_cdc-cdc_abstract_spyglass.log"/>
+  <std_reports> 
+<report name="moresimple" link="data_files/soctop_cdc-cdc_abstract_moresimple.rpt" tooltip="moresimple.rpt" />
+<report name="no_msg_reporting_rules" link="data_files/soctop_cdc-cdc_abstract_no_msg_reporting_rules.rpt" tooltip="no_msg_reporting_rules.rpt" />
+  </std_reports> 
+<tech_reports> 
+   <technology name="CDC( Advance CDC - Block Abstraction )"> 
+<report name="CDC Summary Report" link="data_files/soctop_cdc-cdc_abstract_CDC-report.rpt.html" tooltip="CDC-report.rpt" />
+   </technology> 
+</tech_reports> 
+<statistics fatal="0" error="3" warning="12" info="4" waived_error="0" waived_warning="0" waived_info="0" /> 
+<tech_summary> 
+   <technology name="CDC( Advance CDC - Block Abstraction )"> 
+   </technology> 
+</tech_summary> 
+</goal_summary> 

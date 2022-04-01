@@ -1,0 +1,345 @@
+#######################################################################################
+# log primitive debug message of FSDB dumping                                         #
+# This is for R&D to analyze when there are issues happening when FSDB dump           #
+#######################################################################################
+ANF: vcsd_get_serial_mode_status('./simv: undefined symbol: vcsd_get_serial_mode_status')
+ANF: vcsd_enable_sva_success_callback('./simv: undefined symbol: vcsd_enable_sva_success_callback')
+ANF: vcsd_disable_sva_success_callback('./simv: undefined symbol: vcsd_disable_sva_success_callback')
+ANF: vcsd_get_power_scope_name('./simv: undefined symbol: vcsd_get_power_scope_name')
+ANF: vcsd_begin_no_value_var_info('./simv: undefined symbol: vcsd_begin_no_value_var_info')
+ANF: vcsd_end_no_value_var_info('./simv: undefined symbol: vcsd_end_no_value_var_info')
+ANF: vcsd_remove_xprop_merge_mode_callback('./simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
+ANF: vhpi_get_cb_info('./simv: undefined symbol: vhpi_get_cb_info')
+ANF: vhpi_free_handle('./simv: undefined symbol: vhpi_free_handle')
+ANF: vhpi_fetch_vcsd_handle('./simv: undefined symbol: vhpi_fetch_vcsd_handle')
+ANF: vhpi_fetch_vpi_handle('./simv: undefined symbol: vhpi_fetch_vpi_handle')
+ANF: vhpi_has_verilog_parent('./simv: undefined symbol: vhpi_has_verilog_parent')
+ANF: vhpi_is_verilog_scope('./simv: undefined symbol: vhpi_is_verilog_scope')
+ANF: scsd_xprop_is_enabled('./simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('./simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('./simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('./simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('./simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('./simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('./simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('./simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: scsd_thread_get_info('./simv: undefined symbol: scsd_thread_get_info')
+ANF: scsd_thread_vc_init('./simv: undefined symbol: scsd_thread_vc_init')
+ANF: scsd_master_set_delta_sync_cbk('./simv: undefined symbol: scsd_master_set_delta_sync_cbk')
+ANF: scsd_fgp_get_fsdb_cores('./simv: undefined symbol: scsd_fgp_get_fsdb_cores')
+ANF: vhdi_dt_get_type('./simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('./simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('./simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('./simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('./simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('./simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_def_traverse_module('./simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('./simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('./simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('./simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('./simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_get_variable_info_by_vhpi('./simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
+ANF: vhdi_def_free('./simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('./simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('./simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('./simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('./simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('./simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('./simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('./simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('./simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('./simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_cbk_set_force_callback('./simv: undefined symbol: vhdi_cbk_set_force_callback')
+ANF: vhdi_trigger_init_force('./simv: undefined symbol: vhdi_trigger_init_force')
+ANF: vhdi_ist_check_scsd_callback('./simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('./simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('./simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('./simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('./simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('./simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('./simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('./simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+ANF: vdi_ist_convert_by_vhdi('./simv: undefined symbol: vdi_ist_convert_by_vhdi')
+ANF: vhdi_ist_get_module_id('./simv: undefined symbol: vhdi_ist_get_module_id')
+ANF: vhdi_refine_foreign_scope_type('./simv: undefined symbol: vhdi_refine_foreign_scope_type')
+ANF: vhdi_flush_callback('./simv: undefined symbol: vhdi_flush_callback')
+ANF: vhdi_set_orig_name('./simv: undefined symbol: vhdi_set_orig_name')
+ANF: vhdi_set_dump_pt('./simv: undefined symbol: vhdi_set_dump_pt')
+ANF: vhdi_get_fsdb_option('./simv: undefined symbol: vhdi_get_fsdb_option')
+ANF: vhdi_fgp_get_mode('./simv: undefined symbol: vhdi_fgp_get_mode')
+ANF: vhdi_node_register_composite_var('./simv: undefined symbol: vhdi_node_register_composite_var')
+ANF: vhdi_node_analysis('./simv: undefined symbol: vhdi_node_analysis')
+ANF: vhdi_node_id('./simv: undefined symbol: vhdi_node_id')
+ANF: vhdi_node_ist_check_scsd_callback('./simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
+ANF: vhdi_node_ist_add_scsd_callback('./simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
+ANF: vhdi_node_ist_get_value_addr('./simv: undefined symbol: vhdi_node_ist_get_value_addr')
+ANF: vhdi_enc_def_traverse_module('./simv: undefined symbol: vhdi_enc_def_traverse_module')
+ANF: vhdi_enc_def_traverse_scope('./simv: undefined symbol: vhdi_enc_def_traverse_scope')
+ANF: vhdi_enc_def_traverse_variable('./simv: undefined symbol: vhdi_enc_def_traverse_variable')
+ANF: vhdi_enc_ist_traverse_scope('./simv: undefined symbol: vhdi_enc_ist_traverse_scope')
+ANF: vhdi_enc_ist_traverse_variable('./simv: undefined symbol: vhdi_enc_ist_traverse_variable')
+ANF: vhdi_enc_ist_get_module_id('./simv: undefined symbol: vhdi_enc_ist_get_module_id')
+ANF: vhdi_enc_def_get_handle_by_module_id('./simv: undefined symbol: vhdi_enc_def_get_handle_by_module_id')
+VCS compile option:
+ option[0]: ./simv
+ option[1]: -ucli
+ option[2]: -i
+ option[3]: dump.tcl
+ option[4]: -cm
+ option[5]: line+cond+fsm+branch+tgl
+ option[6]: /eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/bin/vcs1
+ option[7]: -Mcc=gcc
+ option[8]: -Mcplusplus=g++
+ option[9]: -Masflags=
+ option[10]: -Mcfl= -pipe -fPIC -O -I/eda/synopsys/vcs/vcs_2020.03-SP2-6/include 
+ option[11]: -Mxllcflags=
+ option[12]: -Mxcflags= -pipe -fPIC -I/eda/synopsys/vcs/vcs_2020.03-SP2-6/include
+ option[13]: -Mldflags= -rdynamic 
+ option[14]: -Mout=simv
+ option[15]: -Mamsrun=
+ option[16]: -Mvcsaceobjs=
+ option[17]: -Mobjects= /eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib/libvirsim.so /eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib/liberrorinf.so /eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib/libsnpsmalloc.so /eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib/libvfs.so 
+ option[18]: -Mexternalobj=
+ option[19]: -Msaverestoreobj=/eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib/vcs_save_restore_new.o
+ option[20]: -Mcrt0=
+ option[21]: -Mcrtn=
+ option[22]: -Mcsrc=
+ option[23]: -Msyslibs=/eda/synopsys/verdi/verdi_2020.03-SP2-6/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[24]: -l
+ option[25]: comp.log
+ option[26]: +define+TRACE
+ option[27]: +define+SIM
+ option[28]: -full64
+ option[29]: -lca
+ option[30]: +vcs+lic+wait
+ option[31]: -debug_access
+ option[32]: +vpi
+ option[33]: +vcsd1
+ option[34]: +itf+/eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib/vcsdp_lite.tab
+ option[35]: -debug_region=cell+lib
+ option[36]: -cm
+ option[37]: line+cond+fsm+branch+tgl
+ option[38]: +libext+.v+.V+
+ option[39]: -timescale=1ns/1ps
+ option[40]: +nospecify
+ option[41]: -top
+ option[42]: testbench
+ option[43]: -picarchive
+ option[44]: -P
+ option[45]: /eda/synopsys/verdi/verdi_2020.03-SP2-6/share/PLI/VCS/LINUX64/verdi.tab
+ option[46]: -fsdb
+ option[47]: -sverilog
+ option[48]: -gen_obj
+ option[49]: -y
+ option[50]: /eda/synopsys/dc/dc_2020.09-SP5-1/dw/sim_ver
+ option[51]: -f
+ option[52]: testbench.f
+ option[53]: -load
+ option[54]: /eda/synopsys/verdi/verdi_2020.03-SP2-6/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+ option[55]: timescale=1ns/1ps
+Chronologic Simulation VCS Release Q-2020.03-SP2-6_Full64
+Linux 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64
+CPU cores: 96
+Limit information:
+======================================
+cputime		unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		unlimited
+coredumpsize		0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		409600
+memorylocked		64 kbytes
+maxproc		409600
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+ALPSGUI_HOME=/eda/empyrean/amsds/amsds2021/tools/alpsgui
+QTDIR=/usr/lib64/qt-3.3
+EMPYREAN_NO_MAGNIFY=1
+XMODIFIERS=@im=ibus
+VTE_VERSION=5204
+SHELL=/bin/tcsh
+OA_PLUGIN_PATH=/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd/oa/data/plugins:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd/oa/data/plugins
+_=/bin/dbus-launch
+SNPSLMD_LICENSE_FILE=27000@RDserver03
+AMSPD_HOME=/eda/empyrean/amsds/amsds2021/tools/amspd
+SVRF2PVRS_HOME=/eda/empyrean/amsds/amsds2021/tools/svrf2pvrs
+MACHTYPE=x86_64
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+FM_HOME=/eda/synopsys/fm/fm_2020.09-SP5
+CNI_LOG_DEFAULT=/dev/null
+PATH=/eda/other/gtkwave/gtkwave3.3.110/bin:/eda/other/iverilog/iverilog10.3/bin:/eda/xilinx/vivado2021.1/Vivado/2021.1/bin:/eda/mentor/questa/questa_sim2021.2/questasim/bin:/eda/mentor/catapult_synthesis/Mgc_home/bin:/eda/empyrean/amsds/amsds2021/tools/svrf2pvrs/bin:/eda/empyrean/amsds/amsds2021/bin:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd/bin:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd/oa/bin/linux_rhel30_gcc411_64/opt:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/bin:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/bin:/eda/cadence/xceliummain/xceliummain20.09/tools/bin/64bit:/eda/cadence/xceliummain/xceliummain20.09/tools/bin:/eda/cadence/xceliummain/xceliummain20.09/bin:/eda/cadence/innovus/innovus20.14/bin:/eda/cadence/genus/genus20.11/bin:/eda/synopsys/siliconsmart/siliconsmart_2020.12-SP1-3/bin:/eda/synopsys/lib_compiler/lib_compiler_2020.09-SP5/bin:/eda/synopsys/lib_compiler/lib_compiler_2020.09-SP5/admin/install/lc/bin:/eda/synopsys/spyglass/spyglass_2020.03-SP2-6/SPYGLASS_HOME/bin:/eda/synopsys/finesim/finesim_2020.03-SP2-3/bin:/eda/synopsys/prime/prime_2020.09-SP5-1/bin:/eda/synopsys/verdi/verdi_2020.03-SP2-6/bin:/eda/synopsys/vcs/vcs_2020.03-SP2-6/bin:/eda/synopsys/icc2/icc2_2020.09-SP6/bin:/eda/synopsys/dc/dc_2020.09-SP5-1/bin:/eda/synopsys/fm/fm_2020.09-SP5/bin:/eda/other/gtkwave/gtkwave3.3.110/bin:/eda/other/iverilog/iverilog10.3/bin:/eda/xilinx/vivado2021.1/Vivado/2021.1/bin:/eda/mentor/questa/questa_sim2021.2/questasim/bin:/eda/mentor/catapult_synthesis/Mgc_home/bin:/eda/empyrean/amsds/amsds2021/tools/svrf2pvrs/bin:/eda/empyrean/amsds/amsds2021/bin:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd/bin:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd/oa/bin/linux_rhel30_gcc411_64/opt:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/bin:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/bin:/eda/cadence/xceliummain/xceliummain20.09/tools/bin/64bit:/eda/cadence/xceliummain/xceliummain20.09/tools/bin:/eda/cadence/xceliummain/xceliummain20.09/bin:/eda/cadence/innovus/innovus20.14/bin:/eda/cadence/genus/genus20.11/bin:/eda/synopsys/siliconsmart/siliconsmart_2020.12-SP1-3/bin:/eda/synopsys/lib_compiler/lib_compiler_2020.09-SP5/bin:/eda/synopsys/lib_compiler/lib_compiler_2020.09-SP5/admin/install/lc/bin:/eda/synopsys/spyglass/spyglass_2020.03-SP2-6/SPYGLASS_HOME/bin:/eda/synopsys/finesim/finesim_2020.03-SP2-3/bin:/eda/synopsys/prime/prime_2020.09-SP5-1/bin:/eda/synopsys/verdi/verdi_2020.03-SP2-6/bin:/eda/synopsys/vcs/vcs_2020.03-SP2-6/bin:/eda/synopsys/icc2/icc2_2020.09-SP6/bin:/eda/synopsys/dc/dc_2020.09-SP5-1/bin:/eda/synopsys/fm/fm_2020.09-SP5/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+LM_LICENSE_FILE=28000@RDserver03:28000@RDserver03
+IWAVE_HOME=/eda/empyrean/amsds/amsds2021/tools/iwave
+QT_GRAPHICSSYSTEM_CHECKED=1
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/7363,unix/unix:/tmp/.ICE-unix/7363
+XDG_RUNTIME_DIR=/run/user/3003
+AEOLUS_HOME=/eda/empyrean/amsds/amsds2021/tools/aeolus
+VENDOR=unknown
+XDG_MENU_PREFIX=gnome-
+EMPYREAN_HOME=/eda/empyrean/amsds/amsds2021
+PYTHONHOME=/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+SSH_AUTH_SOCK=/run/user/3003/keyring/ssh
+DISPLAY=:3
+ALPSYIELD_HOME=/eda/empyrean/amsds/amsds2021/tools/alps-ya
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HOME=/home/users/team3_03
+VCS_HOME=/eda/synopsys/vcs/vcs_2020.03-SP2-6
+PWD=/home/users/team3_03/work_dir/new/1377/socsim
+RCEXPLORER_HOME=/eda/empyrean/amsds/amsds2021/tools/rcexplorer
+SSH_AGENT_PID=7492
+VERDI_HOME=/eda/synopsys/verdi/verdi_2020.03-SP2-6
+MGLS_LICENSE_FILE=17170@RDserver03
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ekGEGWWIM5,guid=cf155035c8edce1b3610fb76610d0756
+LD_LIBRARY_PATH=/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd/lib:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd/oa/lib/linux_rhel30_gcc411_64/opt:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/lib:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd/lib:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/3rd/oa/lib/linux_rhel30_gcc411_64/opt:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/lib
+LOGNAME=team3_03
+CDS_LIC_FILE=15288@RDserver03
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+HOSTNAME=RDserver03
+VCS_TARGET_ARCH=amd64
+COLORTERM=truecolor
+QT_IM_MODULE=ibus
+OSTYPE=linux
+SHLVL=4
+ICC2_HOME=/eda/synopsys/icc2/icc2_2020.09-SP6
+GNOME_SHELL_SESSION_MODE=classic
+XDG_SESSION_ID=c4
+USER=team3_03
+ARGUS_HOME=/eda/empyrean/amsds/amsds2021/tools/argus
+QTLIB=/usr/lib64/qt-3.3/lib
+ALPSCD_HOME=/eda/empyrean/amsds/amsds2021/tools/alpscd
+XDG_CURRENT_DESKTOP=GNOME
+ESIMMODEL_HOME=/eda/empyrean/amsds/amsds2021/tools/esimmodel
+CNI_DISPLAY_DIR=/eda/empyrean/amsds/amsds2021/tools/pycell_spt/tech/cni130/santanaDisplay
+VNCDESKTOP=RDserver03:3 (team3_03)
+CNI_ROOT=/eda/empyrean/amsds/amsds2021/tools/pycell_spt
+IMSETTINGS_MODULE=none
+OA_COMPILER=gcc411
+FINESIM_HOME=/eda/synopsys/finesim/finesim_2020.03-SP2-3
+PYTHONPATH=/eda/empyrean/amsds/amsds2021/tools/pycell_spt/pylib:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/pyext:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/lib:.:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/pylib:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/pyext:/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64/lib:.
+MAKEFLAGS=
+MFLAGS=
+MAIL=/var/spool/mail/team3_03
+PANDA_HOME=/eda/empyrean/amsds/amsds2021/tools/aether
+SPYGLASS_HOME=/eda/synopsys/spyglass/spyglass_2020.03-SP2-6
+DC_HOME=/eda/synopsys/dc/dc_2020.09-SP5-1
+Siliconsmart_HOME=/eda/synopsys/siliconsmart/siliconsmart_2020.12-SP1-3
+LC_HOME=/eda/synopsys/lib_compiler/lib_compiler_2020.09-SP5
+DBUS_STARTER_BUS_TYPE=session
+HOSTTYPE=x86_64-linux
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/92b858e9_686d_462d_b89f_3512771a69cb
+PANDA_OA_HOME=/eda/empyrean/amsds/amsds2021/openaccess
+GNOME_TERMINAL_SERVICE=:1.1991
+GROUP=team3_03
+ALPS_HOME=/eda/empyrean/amsds/amsds2021/tools/alps
+QTINC=/usr/lib64/qt-3.3/include
+Prime_HOME=/eda/synopsys/prime/prime_2020.09-SP5-1
+CNI_PLAT_ROOT=/eda/empyrean/amsds/amsds2021/tools/pycell_spt/plat_linux_gcc411_64
+ALPS_EDU=1
+LANG=en_US.UTF-8
+TERM=xterm-256color
+DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-ekGEGWWIM5,guid=cf155035c8edce1b3610fb76610d0756
+HOST=RDserver03
+MAKELEVEL=1
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_EXEC_DONE=1
+LC_ALL=C
+DVE=/eda/synopsys/vcs/vcs_2020.03-SP2-6/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+FLEXLM_BORROWFILE=/home/users/team3_03/.RDserver03-borrow.txt
+Runtime command line arguments:
+argv[0]=./simv
+argv[1]=-ucli
+argv[2]=-i
+argv[3]=dump.tcl
+argv[4]=-cm
+argv[5]=line+cond+fsm+branch+tgl
+260 profile - 100
+          CPU/Mem usage: 0.050 sys,  0.290 user,  373.98M mem
+261 Elapsed time:    0:00:01    Sat Oct 30 10:22:12 2021
+262 pliAppInit
+263 FSDB_GATE is set.
+264 FSDB_RTL is set.
+265 FSDB_RTL is set.
+266 FSDB_FIELDTYPE is set.
+267 Enable Parallel Dumping.
+268 pliAppMiscSet: New Sim Round
+269 pliEntryInit
+270 LIBSSCORE=found /eda/synopsys/verdi/verdi_2020.03-SP2-6/share/PLI/lib/LINUXAMD64/libsscore_vcs202003.so through $NOVAS_HOME setting.
+271 FSDB Dumper for VCS, Release Verdi_Q-2020.03-SP2-6, Linux x86_64/64bit, 05/25/2021
+272 (C) 1996 - 2021 by Synopsys, Inc.
+273 DVDI_is_vir_unload_enabled is enable
+274 FSDB_VCS_ENABLE_NATIVE_VC is enable
+275 sps_call_fsdbDumpon_vd_main at 0 : ../rtl/soc_tb.v(22)
+276 *Verdi* WARNING: fsdbDumpon - The FSDB file has not been created.
+277 sps_call_fsdbAutoSwitchDumpfile_main_vd at 0 : ../rtl/soc_tb.v(22)
+278 sps_call_fsdbAutoSwitchDumpfile at 0 : ../rtl/soc_tb.v(22)
+279 argv[0]: (2000)
+280 argv[1]: (testbench.fsdb)
+281 argv[2]: (40)
+282 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+283 *Verdi* FSDB: The switch FSDB file size might not match the input size (2000MB) because of performance concerns.
+284 *Verdi* FSDB: To have the FSDB file size match the input size (2000MB), set the FSDB_ENV_PRECISE_AUTOSWITCH environment, though the dumping performance might decrease.
+285 *Verdi* : Enable automatic switching of the FSDB file.
+286 *Verdi* : (Filename='testbench', Limit Size=2000MB, File Amount=40).
+287 *Verdi* : Create FSDB file 'testbench_000.fsdb'
+288 compile option from '/storage2/users_work_dir/team3/team3_03/work_dir/new/1377/socsim/simv.daidir/vcs_rebuild'.
+289   "vcs '+define+TRACE' '+define+SIM' '-full64' '-lca' '+vcs+lic+wait' '-l' 'comp.log' '-sverilog' '-debug_access' '-debug_region=cell+lib' '-cm' 'line+cond+fsm+branch+tgl' '-y' '/eda/synopsys/dc/dc_2020.09-SP5-1/dw/sim_ver' '+libext+.v+.V+' '-timescale=1ns/1ps' '+nospecify' '-top' 'testbench' '-f' 'testbench.f' 2>&1"
+290 *Verdi* : Create the file 'testbench.log' to log the time range of each FSDB file.
+291 *Verdi* : Create virtual FSDB file 'testbench.vf' to log each FSDB file.
+292 sps_call_fsdbDumpvars_vd_main at 0 : ../rtl/soc_tb.v(22)
+293 argv[0]: (0)
+294 argv[1]: (+all)
+295 [spi_vcs_vd_ppi_create_root]: no upf option
+296 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
+297 Power dumping is enabled and VIR_REDUCTION may not work.
+298 *Verdi* : Begin traversing the scopes, layer (0).
+299 *Verdi* : Enable +all dumping.
+300 *Verdi* WARNING: Var 'testbench.spiflash.memory' will be ignored because its total element is larger than or equal to 2097152.
+301 *Verdi* : You may set environmental parameter "FSDB_MAX_VAR_ELEM" to enable the dumping.
+302 *Verdi* : End of traversing.
+303 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.080 sys,  0.310 user,  495.28M mem
+                   incr: 0.010 sys,  0.010 user,  29.56M mem
+                   accu: 0.010 sys,  0.010 user,  29.56M mem
+              accu incr: 0.010 sys,  0.010 user,  29.56M mem
+
+          Count usage: 69148 var,  68707 idcode,  567 callback
+                 incr: 69148 var,  68707 idcode,  567 callback
+                 accu: 69148 var,  68707 idcode,  567 callback
+            accu incr: 69148 var,  68707 idcode,  567 callback
+304 Elapsed time:    0:00:01    Sat Oct 30 10:22:12 2021
+305 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.080 sys,  0.320 user,  499.75M mem
+                   incr: 0.000 sys,  0.010 user,  4.47M mem
+                   accu: 0.010 sys,  0.020 user,  34.03M mem
+              accu incr: 0.000 sys,  0.010 user,  4.47M mem
+
+          Count usage: 69148 var,  68707 idcode,  567 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 69148 var,  68707 idcode,  567 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+306 Elapsed time:    0:00:01    Sat Oct 30 10:22:12 2021
+307 Catch signal "Abort". Log stack trace to novas_dump.log
+stack trace not available308 Catch signal "Abort". Log stack trace to novas_dump.log
+stack trace not available309 Elapsed time:    0:08:02    Sat Oct 30 10:30:13 2021
+310 Sim process exit
+311 Elapsed time:    0:08:02    Sat Oct 30 10:30:13 2021
+312 Begin FSDB profile info:
+313 FSDB Writer : bc1(65402510) bcn(104545090) mtf/stf(0/30)
+FSDB Writer elapsed time : flush(15.407027) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+314 End FSDB profile info
+315 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+316                      - BlockUsed:1490 Acquire:202318417 BufferUsed:2918511176
+317                      - Flush:4 Expand:0 ProducerWait:0 ConsumerWait:1069
+318                      - MainProducerTime:68.258699351 TotalConsumerTime:33.366390151
+319                      - ElapsedTime:481.757358000
+320 Producer   0 profile - BlockUsed:1490 Acquire:202318417 BufferUsed:2918511176
+321 Consumer   0 profile - Affinity:-1 CPUTime:33.366390151 LifeTime:481.350343678 (0.07%)
+322                      - BlockUsed:1490 Acquire:202318417 BufferUsed:2918511176
+323 SimExit

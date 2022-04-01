@@ -1,0 +1,16 @@
+Date Created     : 07-10-2021 14:25:23
+SpyGlass Version : SpyGlass_vQ-2020.03-SP2-6
+Project Name     : spyglass-1
+Goal Name        : cdc/cdc_verify
+Scenario Name    : default_scenario
+Top              : soctop
+
+Message Summary
+Severity   Non-Waived  Waived
+FATAL           0         0
+ERROR          21         0
+WARNING        12         0
+INFO           67         0
+
+-dashboard_data unsync_crossings 
+-dashboard_data sync_crossings 

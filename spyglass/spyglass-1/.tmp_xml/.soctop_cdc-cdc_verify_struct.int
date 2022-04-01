@@ -1,0 +1,7 @@
+INPUT@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/cdc/cdc_verify_struct/spyglass_reports@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/html_reports/data_files/@@soctop@@cdc-cdc_verify_struct@@
+COPY@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt@@data_files/soctop_cdc-cdc_verify_struct_moresimple.rpt@@
+COPY@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/soctop_cdc-cdc_verify_struct_no_msg_reporting_rules.rpt@@
+REGEN@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt@@data_files/soctop_cdc-cdc_verify_struct_CDC-report.rpt.html@@
+COPY@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt@@data_files/soctop_cdc-cdc_verify_struct_CDC-report.rpt@@
+PROCESS@@clock-reset@@SpyGlass
+COPY@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/cdc/cdc_verify_struct/spyglass.log@@data_files/soctop_cdc-cdc_verify_struct_spyglass.log@@

@@ -1,0 +1,5 @@
+INPUT@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/lint/lint_rtl/spyglass_reports@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/html_reports/data_files/@@soctop@@lint-lint_rtl@@
+COPY@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/lint/lint_rtl/spyglass_reports/moresimple.rpt@@data_files/soctop_lint-lint_rtl_moresimple.rpt@@
+COPY@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/lint/lint_rtl/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/soctop_lint-lint_rtl_no_msg_reporting_rules.rpt@@
+PROCESS@@Audits@@area@@lowpower@@clock-reset@@const_intern1@@constraints@@dft@@dft_dsm@@power_est@@txv@@miscellaneous@@starc2002@@timing@@morelint@@latch@@lint@@simulation@@erc@@starc2005@@starc@@openmore@@SpyGlass
+COPY@@/home/users/team3_03/Desktop/design2021/spyglass/spyglass-1/soctop/lint/lint_rtl/spyglass.log@@data_files/soctop_lint-lint_rtl_spyglass.log@@

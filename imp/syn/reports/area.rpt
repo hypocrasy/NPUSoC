@@ -1,0 +1,67 @@
+ 
+****************************************
+Report : area
+Design : soctop
+Version: R-2020.09-SP5-1
+Date   : Wed Nov  3 23:50:46 2021
+****************************************
+
+Library(s) Used:
+
+    scc40nll_hdc40_rvt_ss_v0p99_-40c_basic (File: /storage1/admin_doc_file/smic40/SMIC_40LL_STD_IO_191128/SCC40NLL_HDC40_RVT_V0p1/liberty/1.1v/scc40nll_hdc40_rvt_ss_v0p99_-40c_basic.db)
+    USERLIB_ss_0p90v_0p90v_m40c (File: /storage1/users_work_dir/team1/team1_01/work_dir/new/1377/imp/syn/lib/spsram16384x16_16_writemask_on_main_mem/mem16384x16_ss_0p90v_0p90v_m40c.db)
+    USERLIB_ss_0p90v_0p90v_m40c (File: /storage1/users_work_dir/team1/team1_01/work_dir/new/1377/imp/syn/lib/512x64rf_coeff_mem/mem512x64_ss_0p90v_0p90v_m40c.db)
+    USERLIB_ss_0p90v_0p90v_m40c (File: /storage1/users_work_dir/team1/team1_01/work_dir/new/1377/imp/syn/lib/512x32_code_mem/mem512x32_ss_0p90v_0p90v_m40c.db)
+
+Number of ports:                         3419
+Number of nets:                         68533
+Number of cells:                        64657
+Number of combinational cells:          45741
+Number of sequential cells:             18821
+Number of macros/black boxes:               7
+Number of buf/inv:                       4157
+Number of references:                       5
+
+Combinational area:              52553.938499
+Buf/Inv area:                     1816.035169
+Noncombinational area:           64197.502867
+Macro/Black Box area:           468630.978516
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                585382.419881
+Total area:                 undefined
+1
+
+ 
+****************************************
+Report : area
+Design : soctop
+Version: R-2020.09-SP5-1
+Date   : Fri Nov  5 20:14:20 2021
+****************************************
+
+Library(s) Used:
+
+    scc40nll_hdc40_rvt_ss_v0p99_-40c_basic (File: /storage1/admin_doc_file/smic40/SMIC_40LL_STD_IO_191128/SCC40NLL_HDC40_RVT_V0p1/liberty/1.1v/scc40nll_hdc40_rvt_ss_v0p99_-40c_basic.db)
+    USERLIB_ss_0p90v_0p90v_m40c (File: /storage1/users_work_dir/team1/team1_01/work_dir/new/1377/imp/syn/lib/spsram16384x16_16_writemask_on_main_mem/mem16384x16_ss_0p90v_0p90v_m40c.db)
+    USERLIB_ss_0p90v_0p90v_m40c (File: /storage1/users_work_dir/team1/team1_01/work_dir/new/1377/imp/syn/lib/512x64rf_coeff_mem/mem512x64_ss_0p90v_0p90v_m40c.db)
+    USERLIB_ss_0p90v_0p90v_m40c (File: /storage1/users_work_dir/team1/team1_01/work_dir/new/1377/imp/syn/lib/512x32_code_mem/mem512x32_ss_0p90v_0p90v_m40c.db)
+
+Number of ports:                         3419
+Number of nets:                         68533
+Number of cells:                        64657
+Number of combinational cells:          45741
+Number of sequential cells:             18821
+Number of macros/black boxes:               7
+Number of buf/inv:                       4157
+Number of references:                       5
+
+Combinational area:              52553.938499
+Buf/Inv area:                     1816.035169
+Noncombinational area:           64197.502867
+Macro/Black Box area:           468630.978516
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                585382.419881
+Total area:                 undefined
+1

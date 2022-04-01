@@ -1,0 +1,2051 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Author" content="<username>"> <meta name="GENERATOR" content="urg/version [en] (platform name) [urg]">
+<title>Unified Coverage Report :: Module :: Sequencer</title>
+<link type="text/css" rel="stylesheet" href="css/.urg.css">
+<link type="text/css" rel="stylesheet" href="css/.layout.css">
+<link type="text/css" rel="stylesheet" href="css/.breadcrumb.css">
+<script type="text/javascript" src="js/.jquery.js"></script>
+<script type="text/javascript" src="js/.jquery-ui.js"></script>
+<script type="text/javascript" src="js/.sortable.js"></script>
+<script type="text/javascript" src="js/.layout.js"></script>
+<script type="text/javascript" src="js/.breadcrumb.js"></script>
+<script type="text/javascript">
+var layout, westLayout, centerLayout;
+$(document).ready(function () {
+  if ($("#north-bread-crumb")) {
+    $("#north-bread-crumb").jBreadCrumb({easing:'swing'})
+  }
+  layout = $("body").layout({ 
+    resizable: true,
+    spacing_open: 4,
+    spacing_closed: 4,
+    north: {
+      size: 76
+    },
+    south: {
+      size: 45,
+      initClosed: true
+    },
+    west: {
+      size: 500,
+      resizable: true,
+      initClosed: false
+    }
+  });
+  centerLayout = $('div.ui-layout-center').layout({
+    north__paneSelector: ".ui-layout-center-inner-north",
+    center__paneSelector: ".ui-layout-center-inner-center", 
+    north__size: 50,
+    spacing_open: 4,
+    spacing_closed: 4
+  });
+});
+</script>
+</head>
+<body onLoad="initPage();"><div class="ui-layout-north">
+<div class="logo"></div>
+<center class="pagetitle">Module Definition</center>
+<div align="center"><a href="dashboard.html" ><b>dashboard</b></a> | <a href="hierarchy.html" ><b>hierarchy</b></a> | <a href="modlist.html" ><b>modlist</b></a> | groups | <a href="tests.html" ><b>tests</b></a> | asserts</div>
+
+</div>
+<div class="ui-layout-west">
+<div name='tag_Sequencer'>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module : <a href="#"  onclick="showContent('tag_Sequencer')">Sequencer</a></span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 97.47</td>
+<td class="s10 cl rt"><a href="mod5.html#Line" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod5.html#Cond" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod5.html#Toggle" > 89.87</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod5.html#Branch" >100.00</a></td>
+</tr></table><br clear=all>
+<span class=repname>Source File(s) : </span>
+<br clear=all>
+<a href="javascript:void(0);"  onclick="openSrcFile('/home/users/team3_03/Desktop/design2021/rtl/sequencer.v')">/home/users/team3_03/Desktop/design2021/rtl/sequencer.v</a><br clear=all>
+<br clear=all>
+<span class=repname>Module self-instances :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="wht cl wordwrap"><a href="mod5.html#inst_tag_31"  onclick="showContent('inst_tag_31')">testbench.uut.seq.u_Sequencer</a></td>
+<td class="s9 cl rt"> 97.47</td>
+<td class="s10 cl rt"><a href="mod5.html#Line" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod5.html#Cond" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod5.html#Toggle" > 89.87</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod5.html#Branch" >100.00</a></td>
+</tr></table></div>
+</div>
+<br clear=all>
+<div name='tag_Sequencer'>
+<hr>
+<a name="inst_tag_31"></a>
+<div class=modhdr>
+<br clear=all>
+<span class=titlename>Module Instance : <a href="hierarchy.html#tag_urg_inst_31" >testbench.uut.seq.u_Sequencer</a></span>
+<br clear=all>
+<br clear=all>
+<span class=repname>Instance :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 97.47</td>
+<td class="s10 cl rt"><a href="mod5.html#Line" >100.00</a></td>
+<td class="s10 cl rt"><a href="mod5.html#Cond" >100.00</a></td>
+<td class="s8 cl rt"><a href="mod5.html#Toggle" > 89.87</a></td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt"><a href="mod5.html#Branch" >100.00</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Instance's subtree :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td class="s9 cl rt"> 97.47</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s10 cl rt">100.00</td>
+<td class="s8 cl rt"> 89.87</td>
+<td class="wht cl rt"></td>
+<td class="s10 cl rt">100.00</td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Parent : </span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td><td class="alfsrt">NAME</td></tr><tr>
+<td class="s8 cl rt"> 83.17</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td class="s8 cl rt"> 83.17</td>
+<td class="wht cl rt"></td>
+<td class="wht cl rt"></td>
+<td><a href="mod7.html#inst_tag_33" >seq</a></td>
+</tr></table><br clear=all>
+<br clear=all>
+<span class=repname>Subtrees :</span>
+<br clear=all>
+<table align=left>
+<tr class="sortablehead">
+<td class="alfsrt">NAME</td><td>SCORE</td><td>LINE</td><td>COND</td><td>TOGGLE</td><td>FSM</td><td>BRANCH</td></tr><tr>
+<td colspan=7>no children</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<hr>
+Since this is the module's only instance, the coverage report is the same as for the module.</div>
+<div class="ui-layout-center">
+<div class="ui-layout-center-inner-center">
+<div name='tag_Sequencer'>
+<a name="Line"></a>
+Line Coverage for Module : <a href="mod5.html" >Sequencer</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="4" width="82">
+<tr><th></th><th>Line No.</th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s10"><td class="lf">TOTAL</td><td></td><td>71</td><td>71</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">ALWAYS</td><td>161</td><td>71</td><td>71</td><td>100.00</td></tr>
+<tr class="wht"><td class="lf">INITIAL</td><td>292</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<pre class="code"><br clear=all>
+160                       always @(posedge clock) begin
+161        1/1              if(stack_MPORT_en &amp; stack_MPORT_mask) begin
+162        1/1                stack[stack_MPORT_addr] &lt;= stack_MPORT_data; // @[Sequencer.scala 18:32]
+163                         end
+                        MISSING_ELSE
+164        1/1              if(queue_MPORT_1_en &amp; queue_MPORT_1_mask) begin
+165        1/1                queue[queue_MPORT_1_addr] &lt;= queue_MPORT_1_data; // @[Sequencer.scala 43:32]
+166                         end
+                        MISSING_ELSE
+167        1/1              if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+168        1/1                if (~comp_valid | io_comp_ready) begin // @[Sequencer.scala 155:51]
+169        1/1                  comp_valid &lt;= insn_valid;
+170                           end
+                        MISSING_ELSE
+171                         end
+                        MISSING_ELSE
+172        1/1              if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+173        1/1                if (~comp_valid | io_comp_ready) begin // @[Sequencer.scala 155:51]
+174        1/1                  if (insn_valid) begin // @[Sequencer.scala 158:41]
+175        1/1                    if (_next_buffer_insn_valid_T_3) begin // @[Sequencer.scala 160:68]
+176        1/1                      comp_insn &lt;= _comp_insn_T_7; // @[Sequencer.scala 161:51]
+177                               end else begin
+178        1/1                      comp_insn &lt;= insn; // @[Sequencer.scala 165:51]
+179                               end
+180                             end
+                        MISSING_ELSE
+181                           end
+                        MISSING_ELSE
+182                         end
+                        MISSING_ELSE
+183        1/1              if (reset | io_start) begin // @[Sequencer.scala 109:42]
+184        1/1                smem_valid &lt;= 1'h0; // @[Sequencer.scala 116:37]
+185                         end else begin
+186        1/1                smem_valid &lt;= _GEN_53;
+187                         end
+188        1/1              if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+189        1/1                if (running &amp; ~smem_valid &amp; ~full) begin // @[Sequencer.scala 139:60]
+190        1/1                  smem_addr &lt;= pc[16:1]; // @[Sequencer.scala 141:37]
+191                           end
+                        MISSING_ELSE
+192                         end
+                        MISSING_ELSE
+193        1/1              if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+194        1/1                busy &lt;= ~reset &amp; (running | _T_20 | io_start | stall_queue | comp_valid); // @[Sequencer.scala 172:22]
+195                         end
+                        MISSING_ELSE
+196        1/1              if (reset | io_start) begin // @[Sequencer.scala 109:42]
+197        1/1                pc &lt;= _pc_T; // @[Sequencer.scala 114:37]
+198        1/1              end else if (smem_valid &amp; io_smem_ready) begin // @[Sequencer.scala 118:51]
+199        1/1                if (io_smem_data[5:0] == 6'h1) begin // @[Sequencer.scala 120:65]
+200        1/1                  pc &lt;= io_smem_data[31:15]; // @[Sequencer.scala 123:37]
+201        1/1                end else if (io_smem_data[5:0] == 6'h2) begin // @[Sequencer.scala 124:72]
+202        1/1                  pc &lt;= _GEN_4;
+203                           end else begin
+204        1/1                  pc &lt;= _T_6; // @[Sequencer.scala 134:37]
+205                           end
+206                         end
+                        MISSING_ELSE
+207        1/1              if (reset | io_start) begin // @[Sequencer.scala 109:42]
+208        1/1                running &lt;= io_start; // @[Sequencer.scala 115:37]
+209        1/1              end else if (smem_valid &amp; io_smem_ready) begin // @[Sequencer.scala 118:51]
+210        1/1                if (!(io_smem_data[5:0] == 6'h1)) begin // @[Sequencer.scala 120:65]
+211        1/1                  if (io_smem_data[5:0] == 6'h2) begin // @[Sequencer.scala 124:72]
+212        1/1                    running &lt;= _GEN_5;
+213                             end
+                        MISSING_ELSE
+214                           end
+                        MISSING_ELSE
+215                         end
+                        MISSING_ELSE
+216        1/1              if (reset | io_start) begin // @[Sequencer.scala 109:42]
+217        1/1                ptr &lt;= 7'h0; // @[Sequencer.scala 32:21]
+218        1/1              end else if (smem_valid &amp; io_smem_ready) begin // @[Sequencer.scala 118:51]
+219        1/1                if (io_smem_data[5:0] == 6'h1) begin // @[Sequencer.scala 120:65]
+220        1/1                  ptr &lt;= _ptr_T_1; // @[Sequencer.scala 21:21]
+221        1/1                end else if (io_smem_data[5:0] == 6'h2) begin // @[Sequencer.scala 124:72]
+222        1/1                  ptr &lt;= _GEN_0;
+223                           end
+                        MISSING_ELSE
+224                         end
+                        MISSING_ELSE
+225        1/1              if (reset | io_start) begin // @[Sequencer.scala 109:42]
+226        1/1                iptr &lt;= 7'h0; // @[Sequencer.scala 60:22]
+227        1/1              end else if (smem_valid &amp; io_smem_ready) begin // @[Sequencer.scala 118:51]
+228        1/1                if (!(io_smem_data[5:0] == 6'h1)) begin // @[Sequencer.scala 120:65]
+229        1/1                  if (!(io_smem_data[5:0] == 6'h2)) begin // @[Sequencer.scala 124:72]
+230        1/1                    iptr &lt;= _iptr_T_1; // @[Sequencer.scala 51:23]
+231                             end
+                        MISSING_ELSE
+232                           end
+                        MISSING_ELSE
+233                         end
+                        MISSING_ELSE
+234        1/1              if (reset | io_start) begin // @[Sequencer.scala 109:42]
+235        1/1                optr &lt;= 7'h0; // @[Sequencer.scala 61:22]
+236        1/1              end else if (~stall_queue) begin // @[Sequencer.scala 145:35]
+237        1/1                if (~_T_19) begin // @[Sequencer.scala 146:43]
+238        1/1                  optr &lt;= _queue_insn_optr_T_1; // @[Sequencer.scala 55:22]
+239                           end
+                        MISSING_ELSE
+240                         end
+                        MISSING_ELSE
+241        1/1              if (reset | io_start) begin // @[Sequencer.scala 109:42]
+242        1/1                full &lt;= 1'h0; // @[Sequencer.scala 62:22]
+243                         end else begin
+244        1/1                full &lt;= &amp;fill[6:3]; // @[Sequencer.scala 48:14]
+245                         end
+246        1/1              if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+247        1/1                if (~stall_queue) begin // @[Sequencer.scala 145:35]
+248        1/1                  if (~_T_19) begin // @[Sequencer.scala 146:43]
+249        1/1                    queue_insn &lt;= queue_queue_insn_MPORT_data; // @[Sequencer.scala 147:44]
+250                             end
+                        MISSING_ELSE
+251                           end
+                        MISSING_ELSE
+252                         end
+                        MISSING_ELSE
+253        1/1              if (reset | io_start) begin // @[Sequencer.scala 109:42]
+254        1/1                queue_insn_valid &lt;= 1'h0; // @[Sequencer.scala 112:37]
+255        1/1              end else if (~stall_queue) begin // @[Sequencer.scala 145:35]
+256        1/1                queue_insn_valid &lt;= _T_20;
+257                         end
+                        MISSING_ELSE
+258        1/1              if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+259        1/1                if (~comp_valid | io_comp_ready) begin // @[Sequencer.scala 155:51]
+260        1/1                  buffer_insn &lt;= next_buffer_insn; // @[Sequencer.scala 156:37]
+261                           end
+                        MISSING_ELSE
+262                         end
+                        MISSING_ELSE
+263        1/1              if (reset | io_start) begin // @[Sequencer.scala 109:42]
+264        1/1                buffer_insn_valid &lt;= 1'h0; // @[Sequencer.scala 113:37]
+265        1/1              end else if (~comp_valid | io_comp_ready) begin // @[Sequencer.scala 155:51]
+266        1/1                buffer_insn_valid &lt;= next_buffer_insn_valid; // @[Sequencer.scala 157:43]
+267                         end
+                        MISSING_ELSE
+</pre>
+<hr>
+<a name="Cond"></a>
+Cond Coverage for Module : <a href="mod5.html" >Sequencer</a><br clear=all>
+<table class="noborder">
+<col width="122">
+<col span="3" width="82">
+<tr><th></th><th>Total</th><th>Covered</th><th>Percent</th></tr>
+<tr class="s10"><td class="lf">Conditions</td><td>20</td><td>20</td><td>100.00</td></tr>
+<tr class="s10"><td class="lf">Logical</td><td>20</td><td>20</td><td>100.00</td></tr>
+<tr class="wht"><td class="lf">Non-Logical</td><td>0</td><td>0</td><td></td></tr>
+<tr class="wht"><td class="lf">Event</td><td>0</td><td>0</td><td></td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       99
+ EXPRESSION (buffer_insn_valid ? buffer_insn : queue_insn)
+             --------1--------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       121
+ EXPRESSION (((~_T_12)) ? _pc_ptr_T_1 : ptr)
+             -----1----
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       122
+ EXPRESSION (((~_T_12)) ? _pc_T_2 : pc)
+             -----1----
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       126
+ EXPRESSION ((io_smem_data[5:0] == 6'h02) ? 1'b0 : 1'b1)
+             --------------1-------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       127
+ EXPRESSION ((io_smem_data[5:0] == 6'b1) ? 1'b0 : _GEN_9)
+             -------------1-------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       128
+ EXPRESSION ((io_smem_data[5:0] == 6'b1) ? 1'b0 : _GEN_15)
+             -------------1-------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       129
+ EXPRESSION (((smem_valid &amp; io_smem_ready)) ? 1'b0 : smem_valid)
+             ---------------1--------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       138
+ EXPRESSION ((comp_insn[5:0] == 6'h04) ? 4'h4 : 4'h8)
+             ------------1------------
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       148
+ EXPRESSION (_T_1 ? 1'b0 : _GEN_39)
+             --1-
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<br clear=all>
+<pre class="code"> LINE       154
+ EXPRESSION (_T_1 ? 1'b0 : _GEN_50)
+             --1-
+</pre>
+<table class="noborder">
+<col width="40">
+<tr><th>-1-</th><th>Status</th></tr>
+<tr class="uGreen"><td>0</td><td class="lf">Covered</td></tr>
+<tr class="uGreen"><td>1</td><td class="lf">Covered</td></tr>
+</table>
+<hr>
+<a name="Toggle"></a>
+Toggle Coverage for Module : <a href="mod5.html" >Sequencer</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s7">
+<td>Totals</td>
+<td class="rt">82</td>
+<td class="rt">65</td>
+<td class="rt">79.27 </td>
+</tr><tr class="s8">
+<td>Total Bits</td>
+<td class="rt">1392</td>
+<td class="rt">1251</td>
+<td class="rt">89.87 </td>
+</tr><tr class="s8">
+<td nowrap>Total Bits 0->1</td>
+<td class="rt">696</td>
+<td class="rt">625</td>
+<td class="rt">89.80 </td>
+</tr><tr class="s8">
+<td nowrap>Total Bits 1->0</td>
+<td class="rt">696</td>
+<td class="rt">626</td>
+<td class="rt">89.94 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s7">
+<td>Ports</td>
+<td class="rt">12</td>
+<td class="rt">9</td>
+<td class="rt">75.00 </td>
+</tr><tr class="s8">
+<td>Port Bits</td>
+<td class="rt">208</td>
+<td class="rt">173</td>
+<td class="rt">83.17 </td>
+</tr><tr class="s8">
+<td nowrap>Port Bits 0->1</td>
+<td class="rt">104</td>
+<td class="rt">86</td>
+<td class="rt">82.69 </td>
+</tr><tr class="s8">
+<td nowrap>Port Bits 1->0</td>
+<td class="rt">104</td>
+<td class="rt">87</td>
+<td class="rt">83.65 </td>
+</tr></table><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80></th><th nowrap width=80></th><th nowrap width=80></th></tr><tr class="s8">
+<td>Signals</td>
+<td class="rt">70</td>
+<td class="rt">56</td>
+<td class="rt">80.00 </td>
+</tr><tr class="s9">
+<td>Signal Bits</td>
+<td class="rt">1184</td>
+<td class="rt">1078</td>
+<td class="rt">91.05 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 0->1</td>
+<td class="rt">592</td>
+<td class="rt">539</td>
+<td class="rt">91.05 </td>
+</tr><tr class="s9">
+<td nowrap>Signal Bits 1->0</td>
+<td class="rt">592</td>
+<td class="rt">539</td>
+<td class="rt">91.05 </td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Port Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td><td class="alfsrt">Direction</td></tr><tr>
+<td>clock</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>reset</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>io_start</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>io_addr[15:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>INPUT</td>
+</tr><tr>
+<td>io_busy</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>io_comp_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>io_comp_ready</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>io_comp_insn[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>io_smem_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>io_smem_ready</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr><tr>
+<td>io_smem_addr[0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>io_smem_addr[15:1]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>OUTPUT</td>
+</tr><tr>
+<td>io_smem_data[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td>INPUT</td>
+</tr></table><br clear=all>
+<table align=left class="sortable noborder">
+<caption><b>Signal Details</b></caption>
+<tr class="sortablehead">
+<td class="alfsrt">Name</td><td class="alfsrt">Toggle</td><td class="alfsrt">Toggle 1->0</td><td class="alfsrt">Toggle 0->1</td></tr><tr>
+<td>stack_pc_MPORT_data[0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>stack_pc_MPORT_data[15:1]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>stack_pc_MPORT_addr[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>stack_MPORT_data[0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>stack_MPORT_data[15:1]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>stack_MPORT_addr[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>stack_MPORT_mask</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>stack_MPORT_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>queue_queue_insn_MPORT_data[12:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>queue_queue_insn_MPORT_data[14:13]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>queue_queue_insn_MPORT_data[31:15]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>queue_queue_insn_MPORT_addr[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>queue_MPORT_1_data[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>queue_MPORT_1_addr[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>queue_MPORT_1_mask</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>queue_MPORT_1_en</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>comp_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>comp_insn[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>smem_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>smem_addr[0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>smem_addr[15:1]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>busy</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>pc[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>pc[16:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>running</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>ptr[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>iptr[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>optr[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>full</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>fill[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>queue_insn[12:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>queue_insn[14:13]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>queue_insn[31:15]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>queue_insn_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>buffer_insn[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>buffer_insn_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>insn[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>insn_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_buffer_insn_hi_hi[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_buffer_insn_hi_lo[9:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_buffer_insn_lo_hi[8:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_buffer_insn_lo_lo[5:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_buffer_insn[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_next_buffer_insn_valid_T_1</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_next_buffer_insn_valid_T_3</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>next_buffer_insn_valid</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>stall_queue</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_T_1</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_pc_T[16:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>_T_4</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_T_6[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>_T_6[16:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_ptr_T_1[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_T_12</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_T_13</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_pc_ptr_T_1[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_pc_T_2[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>_pc_T_2[16:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_0[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_4[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>_GEN_4[16:2]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_5</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_iptr_T_1[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_9</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_15</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_27</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_32</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_35</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_39</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_45</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_50</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_53</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_T_19</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_T_20</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_queue_insn_optr_T_1[6:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_63</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_comp_insn_T_3[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>_comp_insn_T_3[2]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>_comp_insn_T_3[3]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_104[1:0]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>_GEN_104[2]</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>_GEN_104[3]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_GEN_104[16:4]</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+<td class="s3 cl">No</td>
+</tr><tr>
+<td>comp_insn_hi_hi[16:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>comp_insn_hi_lo[8:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr><tr>
+<td>_comp_insn_T_7[31:0]</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+<td class="s9 cl">Yes</td>
+</tr></table><br clear=all>
+<hr>
+<a name="Branch"></a>
+Branch Coverage for Module : <a href="mod5.html" >Sequencer</a><br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=120></th><th nowrap width=80>Line No.</th><th nowrap width=80>Total</th><th nowrap width=80>Covered</th><th nowrap width=80>Percent</th></tr><tr class="s10">
+<td>Branches</td>
+<td></td>
+<td class="rt">78</td>
+<td class="rt">78</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">99</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">121</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">122</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">126</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">127</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">128</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">129</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">138</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">148</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>TERNARY</td>
+<td class="rt">154</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">161</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">164</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">167</td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">172</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">183</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">188</td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">193</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">196</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">207</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">216</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">225</td>
+<td class="rt">5</td>
+<td class="rt">5</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">234</td>
+<td class="rt">4</td>
+<td class="rt">4</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">241</td>
+<td class="rt">2</td>
+<td class="rt">2</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">246</td>
+<td class="rt">4</td>
+<td class="rt">4</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">253</td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">258</td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">100.00</td>
+</tr><tr class="s10">
+<td>IF</td>
+<td class="rt">263</td>
+<td class="rt">3</td>
+<td class="rt">3</td>
+<td class="rt">100.00</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+99           wire [31:0] insn = buffer_insn_valid ? buffer_insn : queue_insn; // @[Sequencer.scala 100:30]
+                                                  <font color = "green">-1-</font>  
+                                                  <font color = "green">==></font>  
+                                                  <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+121          wire [6:0] _GEN_0 = ~_T_12 ? _pc_ptr_T_1 : ptr; // @[Sequencer.scala 125:51 Sequencer.scala 25:21 Sequencer.scala 17:30]
+                                        <font color = "green">-1-</font>  
+                                        <font color = "green">==></font>  
+                                        <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+122          wire [16:0] _GEN_4 = ~_T_12 ? _pc_T_2 : pc; // @[Sequencer.scala 125:51 Sequencer.scala 126:44 Sequencer.scala 90:30]
+                                         <font color = "green">-1-</font>  
+                                         <font color = "green">==></font>  
+                                         <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+126          wire  _GEN_15 = io_smem_data[5:0] == 6'h2 ? 1'h0 : 1'h1; // @[Sequencer.scala 124:72 Sequencer.scala 43:32 Sequencer.scala 52:22]
+                                                       <font color = "green">-1-</font>  
+                                                       <font color = "green">==></font>  
+                                                       <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+127          wire  _GEN_27 = io_smem_data[5:0] == 6'h1 ? 1'h0 : _GEN_9; // @[Sequencer.scala 120:65 Sequencer.scala 18:32]
+                                                       <font color = "green">-1-</font>  
+                                                       <font color = "green">==></font>  
+                                                       <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+128          wire  _GEN_32 = io_smem_data[5:0] == 6'h1 ? 1'h0 : _GEN_15; // @[Sequencer.scala 120:65 Sequencer.scala 43:32]
+                                                       <font color = "green">-1-</font>  
+                                                       <font color = "green">==></font>  
+                                                       <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+129          wire  _GEN_35 = smem_valid & io_smem_ready ? 1'h0 : smem_valid; // @[Sequencer.scala 118:51 Sequencer.scala 119:36 Sequencer.scala 83:30]
+                                                        <font color = "green">-1-</font>  
+                                                        <font color = "green">==></font>  
+                                                        <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+138          wire [3:0] _comp_insn_T_3 = comp_insn[5:0] == 6'h4 ? 4'h4 : 4'h8; // @[Sequencer.scala 161:80]
+                                                                <font color = "green">-1-</font>  
+                                                                <font color = "green">==></font>  
+                                                                <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+148          assign stack_MPORT_en = _T_1 ? 1'h0 : _GEN_39;
+                                          <font color = "green">-1-</font>  
+                                          <font color = "green">==></font>  
+                                          <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+154          assign queue_MPORT_1_en = _T_1 ? 1'h0 : _GEN_50;
+                                            <font color = "green">-1-</font>  
+                                            <font color = "green">==></font>  
+                                            <font color = "green">==></font>  
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+161            if(stack_MPORT_en & stack_MPORT_mask) begin
+               <font color = "green">-1-</font>  
+162              stack[stack_MPORT_addr] <= stack_MPORT_data; // @[Sequencer.scala 18:32]
+           <font color = "green">      ==></font>
+163            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+164            if(queue_MPORT_1_en & queue_MPORT_1_mask) begin
+               <font color = "green">-1-</font>  
+165              queue[queue_MPORT_1_addr] <= queue_MPORT_1_data; // @[Sequencer.scala 43:32]
+           <font color = "green">      ==></font>
+166            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+167            if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+168              if (~comp_valid | io_comp_ready) begin // @[Sequencer.scala 155:51]
+                 <font color = "green">-2-</font>  
+169                comp_valid <= insn_valid;
+           <font color = "green">        ==></font>
+170              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+171            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+172            if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+173              if (~comp_valid | io_comp_ready) begin // @[Sequencer.scala 155:51]
+                 <font color = "green">-2-</font>  
+174                if (insn_valid) begin // @[Sequencer.scala 158:41]
+                   <font color = "green">-3-</font>  
+175                  if (_next_buffer_insn_valid_T_3) begin // @[Sequencer.scala 160:68]
+                     <font color = "green">-4-</font>  
+176                    comp_insn <= _comp_insn_T_7; // @[Sequencer.scala 161:51]
+           <font color = "green">            ==></font>
+177                  end else begin
+178                    comp_insn <= insn; // @[Sequencer.scala 165:51]
+           <font color = "green">            ==></font>
+179                  end
+180                end
+                   MISSING_ELSE
+           <font color = "green">        ==></font>
+181              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+182            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+183            if (reset | io_start) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+184              smem_valid <= 1'h0; // @[Sequencer.scala 116:37]
+           <font color = "green">      ==></font>
+185            end else begin
+186              smem_valid <= _GEN_53;
+           <font color = "green">      ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+188            if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+189              if (running & ~smem_valid & ~full) begin // @[Sequencer.scala 139:60]
+                 <font color = "green">-2-</font>  
+190                smem_addr <= pc[16:1]; // @[Sequencer.scala 141:37]
+           <font color = "green">        ==></font>
+191              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+192            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+193            if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+194              busy <= ~reset & (running | _T_20 | io_start | stall_queue | comp_valid); // @[Sequencer.scala 172:22]
+           <font color = "green">      ==></font>
+195            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+196            if (reset | io_start) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+197              pc <= _pc_T; // @[Sequencer.scala 114:37]
+           <font color = "green">      ==></font>
+198            end else if (smem_valid & io_smem_ready) begin // @[Sequencer.scala 118:51]
+                        <font color = "green">-2-</font>  
+199              if (io_smem_data[5:0] == 6'h1) begin // @[Sequencer.scala 120:65]
+                 <font color = "green">-3-</font>  
+200                pc <= io_smem_data[31:15]; // @[Sequencer.scala 123:37]
+           <font color = "green">        ==></font>
+201              end else if (io_smem_data[5:0] == 6'h2) begin // @[Sequencer.scala 124:72]
+                          <font color = "green">-4-</font>  
+202                pc <= _GEN_4;
+           <font color = "green">        ==></font>
+203              end else begin
+204                pc <= _T_6; // @[Sequencer.scala 134:37]
+           <font color = "green">        ==></font>
+205              end
+206            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+207            if (reset | io_start) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+208              running <= io_start; // @[Sequencer.scala 115:37]
+           <font color = "green">      ==></font>
+209            end else if (smem_valid & io_smem_ready) begin // @[Sequencer.scala 118:51]
+                        <font color = "green">-2-</font>  
+210              if (!(io_smem_data[5:0] == 6'h1)) begin // @[Sequencer.scala 120:65]
+                 <font color = "green">-3-</font>  
+211                if (io_smem_data[5:0] == 6'h2) begin // @[Sequencer.scala 124:72]
+                   <font color = "green">-4-</font>  
+212                  running <= _GEN_5;
+           <font color = "green">          ==></font>
+213                end
+                   MISSING_ELSE
+           <font color = "green">        ==></font>
+214              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+215            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+216            if (reset | io_start) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+217              ptr <= 7'h0; // @[Sequencer.scala 32:21]
+           <font color = "green">      ==></font>
+218            end else if (smem_valid & io_smem_ready) begin // @[Sequencer.scala 118:51]
+                        <font color = "green">-2-</font>  
+219              if (io_smem_data[5:0] == 6'h1) begin // @[Sequencer.scala 120:65]
+                 <font color = "green">-3-</font>  
+220                ptr <= _ptr_T_1; // @[Sequencer.scala 21:21]
+           <font color = "green">        ==></font>
+221              end else if (io_smem_data[5:0] == 6'h2) begin // @[Sequencer.scala 124:72]
+                          <font color = "green">-4-</font>  
+222                ptr <= _GEN_0;
+           <font color = "green">        ==></font>
+223              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+224            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+225            if (reset | io_start) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+226              iptr <= 7'h0; // @[Sequencer.scala 60:22]
+           <font color = "green">      ==></font>
+227            end else if (smem_valid & io_smem_ready) begin // @[Sequencer.scala 118:51]
+                        <font color = "green">-2-</font>  
+228              if (!(io_smem_data[5:0] == 6'h1)) begin // @[Sequencer.scala 120:65]
+                 <font color = "green">-3-</font>  
+229                if (!(io_smem_data[5:0] == 6'h2)) begin // @[Sequencer.scala 124:72]
+                   <font color = "green">-4-</font>  
+230                  iptr <= _iptr_T_1; // @[Sequencer.scala 51:23]
+           <font color = "green">          ==></font>
+231                end
+                   MISSING_ELSE
+           <font color = "green">        ==></font>
+232              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+233            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>-4-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+234            if (reset | io_start) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+235              optr <= 7'h0; // @[Sequencer.scala 61:22]
+           <font color = "green">      ==></font>
+236            end else if (~stall_queue) begin // @[Sequencer.scala 145:35]
+                        <font color = "green">-2-</font>  
+237              if (~_T_19) begin // @[Sequencer.scala 146:43]
+                 <font color = "green">-3-</font>  
+238                optr <= _queue_insn_optr_T_1; // @[Sequencer.scala 55:22]
+           <font color = "green">        ==></font>
+239              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+240            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+241            if (reset | io_start) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+242              full <= 1'h0; // @[Sequencer.scala 62:22]
+           <font color = "green">      ==></font>
+243            end else begin
+244              full <= &fill[6:3]; // @[Sequencer.scala 48:14]
+           <font color = "green">      ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+246            if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+247              if (~stall_queue) begin // @[Sequencer.scala 145:35]
+                 <font color = "green">-2-</font>  
+248                if (~_T_19) begin // @[Sequencer.scala 146:43]
+                   <font color = "green">-3-</font>  
+249                  queue_insn <= queue_queue_insn_MPORT_data; // @[Sequencer.scala 147:44]
+           <font color = "green">          ==></font>
+250                end
+                   MISSING_ELSE
+           <font color = "green">        ==></font>
+251              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+252            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>-3-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+253            if (reset | io_start) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+254              queue_insn_valid <= 1'h0; // @[Sequencer.scala 112:37]
+           <font color = "green">      ==></font>
+255            end else if (~stall_queue) begin // @[Sequencer.scala 145:35]
+                        <font color = "green">-2-</font>  
+256              queue_insn_valid <= _T_20;
+           <font color = "green">      ==></font>
+257            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+258            if (!(reset | io_start)) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+259              if (~comp_valid | io_comp_ready) begin // @[Sequencer.scala 155:51]
+                 <font color = "green">-2-</font>  
+260                buffer_insn <= next_buffer_insn; // @[Sequencer.scala 156:37]
+           <font color = "green">        ==></font>
+261              end
+                 MISSING_ELSE
+           <font color = "green">      ==></font>
+262            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+<pre class="code"><br clear=all>
+263            if (reset | io_start) begin // @[Sequencer.scala 109:42]
+               <font color = "green">-1-</font>  
+264              buffer_insn_valid <= 1'h0; // @[Sequencer.scala 113:37]
+           <font color = "green">      ==></font>
+265            end else if (~comp_valid | io_comp_ready) begin // @[Sequencer.scala 155:51]
+                        <font color = "green">-2-</font>  
+266              buffer_insn_valid <= next_buffer_insn_valid; // @[Sequencer.scala 157:43]
+           <font color = "green">      ==></font>
+267            end
+               MISSING_ELSE
+           <font color = "green">    ==></font>
+</pre>
+<br clear=all>
+<span class=repname>Branches:</span>
+<br clear=all>
+<table align=left class="noborder">
+<tr>
+<th nowrap width=80>-1-</th><th nowrap width=80>-2-</th><th nowrap width=80>Status</th></tr><tr class="uGreen">
+<td align=center>1</td>
+<td align=center nowrap>-</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>1</td>
+<td>Covered</td>
+</tr><tr class="uGreen">
+<td align=center>0</td>
+<td align=center>0</td>
+<td>Covered</td>
+</tr></table><br clear=all>
+</div>
+</div>
+<div class="ui-layout-center-inner-north">
+<div id="center-bread-crumb" class="breadCrumb module urg-margin-bottom">
+  <ul name="inst_tag_31">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+  <ul name="tag_Sequencer">
+    <li>
+      <a href="#Line">Line</a>    </li>
+    <li>
+      <a href="#Cond">Cond</a>    </li>
+    <li>
+      <a href="#Toggle">Toggle</a>    </li>
+    <li>
+      <a href="#Branch">Branch</a>    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div class="ui-layout-south">
+<table align=center><tr><td class="s0 cl">0%</td>
+<td class="s1 cl">10%</td>
+<td class="s2 cl">20%</td>
+<td class="s3 cl">30%</td>
+<td class="s4 cl">40%</td>
+<td class="s5 cl">50%</td>
+<td class="s6 cl">60%</td>
+<td class="s7 cl">70%</td>
+<td class="s8 cl">80%</td>
+<td class="s9 cl">90%</td>
+<td class="s10 cl">100%</td></tr></table></div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+SpyGlass Predictive Analyzer(R) - SpyGlass_vQ-2020.03-SP2-6
+All Rights Reserved. Use, disclosure or duplication 
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com 
+
+Creating 'datasheet' reports using config file '/tmp/config_89382'
+##cwd         : /home/users/team3_03/Desktop/design2021/spyglass
+##system      : Linux RDserver03 3.10.0-1160.el7.x86_64 #1 SMP Mon Oct 19 16:18:59 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+##Date & Time : Thu Oct  7 17:20:20 2021
+Checkout 'datasheet' license at Thu Oct  7 17:20:20 2021 
+Checkout 'datasheet' license completed at Thu Oct  7 17:20:20 2021 
+Starting Generating DataSheet report at Thu Oct  7 17:20:20 2021 
+Project File /home/users/team3_03/Desktop/design2021/spyglass/spyglass-1.prj does not exist 
+INFO: No data found to create DataSheet report. 
+Checking in 'datasheet' license at Thu Oct  7 17:20:20 2021 
+Checking in 'datasheet' license completed at Thu Oct  7 17:20:20 2021 
+----------------------------------------------------------------
+Report 'datasheet' creation failed.
+----------------------------------------------------------------
+
+SpyGlass Exit Code 7

@@ -1,0 +1,99 @@
+#################################################################
+# abstract_port constraints                                     #
+#################################################################
+
+
+# "abstract_port -path_logic" constraint is not generated. There is no combo logic from input ports to 
+# any output ports
+
+
+#################################################################
+# clock constraints                                             #
+#################################################################
+
+
+# Clock constraint is not generated.
+
+
+#################################################################
+# set_case_analysis constraints                                 #
+#################################################################
+
+
+# Case analysis constraint is not generated as 
+# no constant is propagated to any output ports
+
+
+#################################################################
+# reset constraints                                             #
+#################################################################
+
+
+# Asynchronous reset constraint is not generated.
+
+
+
+# Synchronous reset constraint is not generated.
+
+
+#################################################################
+# quasi_static constraints                                      #
+#################################################################
+
+
+# Quasi-static constraint is not generated.
+
+
+#################################################################
+# abstract_port constraints                                     #
+#################################################################
+
+
+#################################################################
+# virtual clock constraints                                     #
+#################################################################
+
+#################################################################
+# cdc_attribute constraints                                     #
+#################################################################
+
+
+# cdc_attribute constraint is not generated.
+
+
+#################################################################
+# reset_filter_path constraints                                 #
+#################################################################
+
+
+# reset_filter_path constraint is not generated.
+
+
+#################################################################
+# Inferred abstract_port constraints                            #
+#################################################################
+
+
+
+#################################################################
+# cdc_filter_coherency constraints                              #
+#################################################################
+
+
+# cdc_filter_coherency constraint is not generated.
+
+
+
+#################################################################
+# clock_sense constraints                                       #
+#################################################################
+
+# clock_sense constraint is not generated.
+
+
+#################################################################
+# reset_sense constraints                                       #
+#################################################################
+
+# reset_sense constraint is not generated. Either no reset defined on input ports or no combinational path found from primary resets to output port.
+

@@ -1,0 +1,105 @@
+Command: vcs +define+TRACE +define+SIM -full64 -lca +vcs+lic+wait -l comp.log -sverilog \
+-debug_access -debug_region=cell+lib -cm line+cond+fsm+branch+tgl -y /eda/synopsys/dc/dc_2020.09-SP5-1/dw/sim_ver \
++libext+.v+.V+ -timescale=1ns/1ps +nospecify -top testbench -f testbench.f
+                         Chronologic VCS (TM)
+      Version Q-2020.03-SP2-6_Full64 -- Sat Oct 30 10:22:09 2021
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS Release Notes
+
+Parsing design file '../rtl/memory.v'
+Parsing design file '../rtl/top.v'
+Parsing design file '../rtl/compute.v'
+Parsing design file '../rtl/sequencer.v'
+Parsing design file '../rtl/soctop.v'
+Parsing design file '../rtl/picorv32.v'
+Parsing design file '../rtl/picosoc.v'
+Parsing design file '../rtl/simpleuart.v'
+Parsing design file '../rtl/soc.v'
+Parsing design file '../rtl/soc_tb.v'
+Parsing design file '../rtl/spiflash.v'
+Parsing design file '../rtl/spimemio.v'
+Parsing library directory file '/eda/synopsys/dc/dc_2020.09-SP5-1/dw/sim_ver/DW02_mult_4_stage.v'
+Top Level Modules:
+       testbench
+TimeScale is 1 ns / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+../rtl/picosoc.v, 146
+picosoc, "picorv32 #(.STACKADDR(STACKADDR), .PROGADDR_RESET(PROGADDR_RESET), .PROGADDR_IRQ(PROGADDR_IRQ), .BARREL_SHIFTER(BARREL_SHIFTER), .COMPRESSED_ISA(ENABLE_COMPRESSED), .ENABLE_COUNTERS(ENABLE_COUNTERS), .ENABLE_MUL(ENABLE_MULDIV), .ENABLE_DIV(ENABLE_MULDIV), .ENABLE_IRQ(1), .ENABLE_IRQ_QREGS(ENABLE_IRQ_QREGS)) cpu( .clk (clk),  .resetn (resetn),  .mem_valid (mem_valid),  .mem_instr (mem_instr),  .mem_ready (mem_ready),  .mem_addr (mem_addr),  .mem_wdata (mem_wdata),  .mem_wstrb (mem_wstrb),  .mem_rdata (mem_rdata),  .irq (irq));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../rtl/soc.v, 58
+hx8kdemo, "SB_IO #(.PIN_TYPE(6'b101001), .PULLUP(1'b0)) flash_io_buf[3:0]( .PACKAGE_PIN ({flash_io3, flash_io2, flash_io1, flash_io0}),  .OUTPUT_ENABLE ({flash_io3_oe, flash_io2_oe, flash_io1_oe, flash_io0_oe}),  .D_OUT_0 ({flash_io3_do, flash_io2_do, flash_io1_do, flash_io0_do}),  .D_IN_0 ({flash_io3_di, flash_io2_di, flash_io1_di, flash_io0_di}));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+../rtl/soc_tb.v, 54
+testbench, "hx8kdemo uut( .clk (clk),  .ser_rx (ser_rx),  .ser_tx (ser_tx),  .flash_csb (flash_csb),  .flash_clk (flash_clk),  .flash_io0 (flash_io0),  .flash_io1 (flash_io1),  .flash_io2 (flash_io2),  .flash_io3 (flash_io3));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[MBFFC] Missing braces in $fflush call.
+../rtl/compute.v, 1231
+"$fflush;"
+  Braces '()' are missing in $fflush call. Assuming the call to be $fflush().
+  Please use $fflush() for correct verilog syntax.
+
+
+Warning-[MBFFC] Missing braces in $fflush call.
+../rtl/spiflash.v, 268
+"$fflush;"
+  Braces '()' are missing in $fflush call. Assuming the call to be $fflush().
+  Please use $fflush() for correct verilog syntax.
+
+VCS Coverage Metrics Release Q-2020.03-SP2-6_Full64 Copyright (c) 1991-2020 by Synopsys Inc.
+Starting vcs inline pass...
+16 modules and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+make[1]: Entering directory `/storage2/users_work_dir/team3/team3_03/work_dir/new/1377/socsim/csrc' \
+
+make[1]: Warning: File `filelist.hsopt.llvm2_0.objs' has modification time 0.19 s \
+in the future
+make[2]: Warning: File `filelist.hsopt.llvm2_0.objs' has modification time 0.18 s \
+in the future
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Warning: File `filelist.hsopt.llvm2_0.objs' has modification time 0.16 s \
+in the future
+ld -shared  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
+rm -f _cuarc0.so
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib -L/eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _168216_archive_1.so _prev_archive_1.so \
+_cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
+-lreader_common /eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib/libBA.a -luclinative \
+/eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli \
+-Wl,-no-whole-archive        _vcs_pli_stub_.o   /eda/synopsys/vcs/vcs_2020.03-SP2-6/linux64/lib/vcs_save_restore_new.o \
+/eda/synopsys/verdi/verdi_2020.03-SP2-6/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm \
+-lpthread -ldl 
+../simv up to date
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory `/storage2/users_work_dir/team3/team3_03/work_dir/new/1377/socsim/csrc' \
+
+CPU time: 1.108 seconds to compile + .369 seconds to elab + .301 seconds to link

@@ -1,0 +1,72 @@
+14 "ErrorAnalyzeBBox" 2
+"BBoxEng"
+["mem16384x16","BB_NO_MOD_DEF"]
+"BBoxEngAuxiInfo"
+["WORK","mem16384x16","1"]
+15 "WarnAnalyzeBBox" 2
+"BBoxEng"
+["mem256x32","BB_NO_FUNC_VIEW"]
+"BBoxEngAuxiInfo"
+["(null)","(null)","(null)"]
+16 "ErrorAnalyzeBBox" 2
+"BBoxEng"
+["mem512x32","BB_NO_MOD_DEF"]
+"BBoxEngAuxiInfo"
+["WORK","mem512x32","1"]
+17 "ErrorAnalyzeBBox" 2
+"BBoxEng"
+["mem512x64","BB_NO_MOD_DEF"]
+"BBoxEngAuxiInfo"
+["WORK","mem512x64","1"]
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ErrorAnalyzeBBox" 2
+"RULEGROUP"
+["Blackbox Resolution"]
+"BUILTIN"
+"1"
+-1 "InferBlackBox" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "LINT_abstract01" 3
+"TEMPLATE"
+["lint/lint_abstract"]
+"RULE_ORDER"
+[1]
+"RULEGROUP"
+["lint/Miscellaneous"]
+-1 "SYNTH_5143" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "WRN_1024" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "WRN_1464" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "WRN_69" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "WarnAnalyzeBBox" 2
+"RULEGROUP"
+["Blackbox Resolution"]
+"BUILTIN"
+"1"
